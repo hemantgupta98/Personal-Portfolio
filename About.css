@@ -1,0 +1,112 @@
+.about {
+      min-height: 80vw;
+      min-width: 40px;
+      background-color: rgb(139, 147, 151);
+}
+
+.about .about-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding-top: 30px;
+}
+
+.about .about-section h1 {
+      font-size: 30px;
+      font-weight: 700;
+}
+
+.about .about-section h1 span {
+      color: rgb(177, 25, 25);
+      filter: drop-shadow(0px 0px 30px white);
+}
+
+.about .about-img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+}
+
+.about .about-img img {
+      height: 300px;
+      width: 300px;
+      border-radius: 20px;
+
+}
+
+.about .about-text {
+      width: 60%;
+      margin-top: 5rem;
+      margin-left: 10rem;
+      display: flex;
+      gap: 30px;
+
+
+}
+
+.about .about-text .about-text-content {
+      text-align: center;
+
+}
+
+.about-text h1 {
+      font-size: 60px;
+      font-weight: 600;
+
+}
+
+.about-text .role {
+      font-size: 40px;
+      font-weight: 400;
+}
+
+.about-text p {
+      margin-top: 15px;
+      font-size: 25px;
+      font-weight: 300;
+      word-spacing: 5px;
+}
+
+.about-text .email {
+      margin-top: 35px;
+      color: blue;
+      font-weight: 500;
+      font-size: 20px;
+}
+
+.about-text .email span {
+      color: black;
+}
+
+.about-text .place {
+      color: blue;
+      font-weight: 500;
+      font-size: 20px;
+}
+
+.about-text .place span {
+      color: black;
+}
+
+.about-text .btn button {
+      margin-top: 60px;
+      height: 3rem;
+      width: 9rem;
+      background-color: rgb(39, 22, 230);
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      border-radius: 5px;
+      border: none;
+      box-shadow: 0px 0px 20px blue;
+      cursor: pointer;
+      transition: 3s;
+}
+
+.about-text .btn button:hover {
+      background-color: white;
+      color: blue;
+      box-shadow: 0px 0px 20px white;
+}

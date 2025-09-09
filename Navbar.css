@@ -1,0 +1,164 @@
+.header {
+      height: 60px;
+      width: 100%;
+      background-color: rgb(7, 2, 67);
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      top: 0%;
+}
+
+.header .header-content h1 {
+      font-weight: 600;
+      padding: 0px 20px;
+      color: white;
+
+
+}
+
+.header .img-section ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+}
+
+.header .img-section ul li {
+      list-style: none;
+      display: flex;
+      color: white;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.main-header {
+      position: relative;
+}
+
+
+.main-header .person-section {
+
+      min-height: 50vw;
+      background-color: rgb(173, 165, 165);
+}
+
+.main-header .person-section .person {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+}
+
+.main-header .person-section img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 300px;
+      width: 400px;
+      mix-blend-mode: multiply;
+      margin-top: 50px;
+      margin-left: 8rem;
+      animation: text 14s ease-in;
+}
+
+@keyframes text {
+      10% {
+            opacity: 0;
+      }
+
+      100% {
+            opacity: 1;
+      }
+
+}
+
+.person-section .text {
+      min-width: 30px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      animation: text 10s;
+}
+
+
+
+@keyframes text {
+      0% {
+            opacity: 0;
+      }
+
+      100% {
+            opacity: 1;
+      }
+
+}
+
+.person-section .text h1 {
+
+      font-size: 60px;
+      font-weight: 600;
+
+}
+
+.person-section .text h1 span {
+      color: rgb(186, 48, 50);
+      min-width: 30px;
+}
+
+.person-section .text .work {
+
+      margin-top: 10px;
+      font-size: 30px;
+      font-weight: 400;
+      display: inline;
+}
+
+.person-section .text .work .span-1 {
+      color: rgb(39, 22, 230);
+
+}
+
+.person-section .btn {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.person-section .btn button {
+      margin-top: 40px;
+      height: 3rem;
+      width: 9rem;
+      background-color: blue;
+      color: white;
+      outline: none;
+      border: none;
+      border-radius: 30px;
+      font-size: 15px;
+      font-weight: 600;
+      box-shadow: 0px 0px 30px rgb(54, 17, 164);
+      cursor: pointer;
+      transition: 3s;
+}
+
+.person-section .btn button:hover {
+      background-color: whitesmoke;
+      color: blue;
+      box-shadow: 0px 0px 20px white;
+}
+
+@media(max-width:1170px) {
+
+      .main-header {
+            max-width: 100%;
+            text-align: center;
+      }
+
+}
